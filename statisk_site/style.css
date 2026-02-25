@@ -89,3 +89,18 @@ img {
   padding: 8px 14px;
   text-decoration: none;
 }
+
+.product_1 {
+  padding: 30px;
+  width: 80%;
+}
+.box_3 {
+  background-color: rgb(181, 181, 181);
+  text-align-last: center;
+}
+
+.produkt_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: fit-content;
+}
