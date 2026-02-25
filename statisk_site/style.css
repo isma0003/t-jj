@@ -14,3 +14,14 @@
 h1 {
   margin: 50px;
 }
+
+.grid-1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+img {
+  width: 60%;
+}
+.box_p {
+  margin: auto;
+}
