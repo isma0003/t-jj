@@ -14,3 +14,78 @@
 h1 {
   margin: 50px;
 }
+
+.grid-1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+img {
+  width: 60%;
+}
+.box_p {
+  margin: auto;
+}
+.udsolgt {
+  position: relative;
+}
+.produkt {
+  position: relative;
+  width: 100%;
+}
+
+.produkt img {
+  width: 100%;
+  display: block;
+}
+
+.udsolgt {
+  position: absolute;
+  bottom: 500px;
+  left: 1100px;
+
+  background: rgba(179, 179, 179, 0.7);
+  color: white;
+  padding: 8px 14px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.udsolgt2 {
+  position: absolute;
+  bottom: 500px;
+  left: 400px;
+
+  background: rgba(179, 179, 179, 0.7);
+  color: white;
+  padding: 8px 14px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.tilbud {
+  position: absolute;
+  bottom: 450px;
+  left: 1100px;
+  background: rgb(255, 225, 0);
+  color: white;
+  padding: 8px 14px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.tilbud2 {
+  position: absolute;
+  bottom: 450px;
+  left: 750px;
+  background: rgb(255, 225, 0);
+  color: white;
+  padding: 8px 14px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.tilbud_1 {
+  text-decoration-line: line-through;
+}
+.knap {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 8px 14px;
+  text-decoration: none;
+}
