@@ -83,3 +83,9 @@ img {
 .tilbud_1 {
   text-decoration-line: line-through;
 }
+.knap {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 8px 14px;
+  text-decoration: none;
+}
